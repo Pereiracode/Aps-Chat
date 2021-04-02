@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apsWeb", "apsWeb\apsWeb.csproj", "{C732B248-F60E-4FFA-BDD0-25FFDD317CBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C732B248-F60E-4FFA-BDD0-25FFDD317CBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C732B248-F60E-4FFA-BDD0-25FFDD317CBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C732B248-F60E-4FFA-BDD0-25FFDD317CBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C732B248-F60E-4FFA-BDD0-25FFDD317CBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {142B68D2-331E-479B-B185-13A59C9BECE7}
+	EndGlobalSection
+EndGlobal

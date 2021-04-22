@@ -9,6 +9,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using apsWeb.Hubs;
+using apsWeb.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace apsWeb
 {
@@ -26,6 +28,8 @@ namespace apsWeb
         {
             services.AddRazorPages();
             services.AddSignalR();
+            services.AddDbContext<ChatboxDbContext>(options =>
+                options.UseSqlServer("Data Source=(localdb)\\MSSQLLocalDB;Initial Catalog=CHATBOX"));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
